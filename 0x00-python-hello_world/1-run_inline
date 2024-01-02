@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Get the Python code from the environment variable
+PY_CODE="$PYCODE"
+
+# Check if the environment variable is set
+if [ -z "$PY_CODE" ]; then
+    echo "Error: PYCODE environment variable is not set."
+    exit 1
+fi
+
+# Run the Python code using Python's '-c' flag to execute the provided code
+python3 -c "$PY_CODE"
+
