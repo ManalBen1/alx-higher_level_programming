@@ -2,4 +2,3 @@
 
 for letter in range(ord('a'), ord('z')):
     print("{}".format(chr(letter)), end="")
-print(chr(ord('z')))
