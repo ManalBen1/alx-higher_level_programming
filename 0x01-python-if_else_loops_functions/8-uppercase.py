@@ -11,3 +11,4 @@ def uppercase(s):
 # Test cases
 uppercase("best")
 uppercase("Best School 98 Battery street")
+uppercase("Holberton")
